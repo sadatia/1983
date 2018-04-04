@@ -157,7 +157,7 @@ fos_install(){
     /usr/sbin/useradd -s /sbin/nologin -U -d /home/fos-streaming -m fosstreaming > /dev/null
     cd /home/fos-streaming > /dev/null
     wget http://downloads.sourceforge.net/project/iptv-md/ionix/fos-streaming_unpack_x84_64.tar.gz -O /home/fos-streaming/fos-streaming_unpack_x84_64.tar.gz  > /dev/null 2>&1
-    tar -xzf /home/fos-streaming/fos-streaming_unpack_x84_64.tar.gz -C /home/fos-streaming/
+    tar -xzf /home/fos-streaming/fos-streaming_unpack_x84_64.tar.gz -C /home/fos-streaming/fos/
     rm -rf /home/fos-streaming/fos/www/vendor /home/fos-streaming/fos/www/50x.html > /dev/null 2>&1
     cd /home/fos-streaming/fos/www  > /dev/null 2>&1
     git clone https://github.com/marconimp/FOS-Streaming-v1.git  > /dev/null 2>&1
