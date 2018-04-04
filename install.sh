@@ -223,7 +223,7 @@ database(){
 
 echo ""
 read -p "Choose your MySQL database name: " sqldatabase
-read -p "Enter your MySQL username(usual 'root'): " sqluname
+read -p "Enter your MySQL username(Lasa 'root'): " sqluname
 read -rep $'Enter your MySQL password (ENTER for none):' sqlpasswd
 echo "mysql-server mysql-server/root_password password $sqlpasswd" | debconf-set-selections
 echo "mysql-server mysql-server/root_password_again password $sqlpasswd" | debconf-set-selections
@@ -246,7 +246,7 @@ sed -i 's/ttt/'$sqluname'/g' /home/fos-streaming/fos/www/config.php
 
 }
 
-echo "FOS-Streaming is installing, you need to wait till the installation gets finished"
+echo "FOS-Streaming se instaleaza. Asteptam..."
 
 fosstreamingexist
 distro
