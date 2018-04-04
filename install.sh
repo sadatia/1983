@@ -161,7 +161,7 @@ fos_install(){
     rm -rf /home/fos-streaming/fos/www/vendor /home/fos-streaming/fos/www/50x.html > /dev/null 2>&1
     cd /home/fos-streaming/fos/www  > /dev/null 2>&1
     git clone https://github.com/marconimp/FOS-Streaming-v1.git  > /dev/null 2>&1
-    cp -R /home/fos-streaming/fos/www/FOS-Streaming-v1/* /home/fos-streaming/fos/www/  > /dev/null 2>&1
+    
 
     echo 'www-data ALL = (root) NOPASSWD: /usr/local/bin/ffmpeg' >> /etc/sudoers  > /dev/null 2>&1
     echo 'www-data ALL = (root) NOPASSWD: /usr/local/bin/ffprobe' >> /etc/sudoers  > /dev/null 2>&1
