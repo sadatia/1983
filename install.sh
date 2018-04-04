@@ -14,13 +14,7 @@ if [ -f /etc/lsb-release ]; then
 fi
 }
 
-# FUNCTION: ERROR
-error(){
-    sleep 2
-    echo -ne '\n'"--PROBLEM!--"
-    echo -ne '\n'"Support: https://github.com/marconimp/FOS-Streaming-v1" '\n'
-exit
-}
+
 
 
 # FUNCTION: FOS-Streaming Exist
