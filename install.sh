@@ -5,7 +5,7 @@ distro(){
 if [ -f /etc/lsb-release ]; then
     . /etc/lsb-release
         if [ $DISTRIB_ID == Ubuntu ]; then
-            if [ $DISTRIB_RELEASE != "14.04" ]; then
+            if [ $DISTRIB_RELEASE != "16.04" ]; then
                 error
             fi
         else
@@ -18,7 +18,7 @@ fi
 error(){
     sleep 2
     echo -ne '\n'"--PROBLEM!--"
-    echo -ne '\n'"Support: https://github.com/marconimp/FOS-Streaming-v1" '\n'
+    echo -ne '\n'"Support: https://github.com/vaniusha3/IPTV-MD" '\n'
 exit
 }
 
