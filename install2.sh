@@ -18,8 +18,7 @@ packages_install(){
     apt-get install -y --force-yes build-essential  > /dev/null 2>&1
     apt-get install -y --force-yes libxslt1-dev git > /dev/null 2>&1
     apt-get install -y --force-yes libssl-dev > /dev/null 2>&1
-    apt-get install -y --force-yes git > /dev/null 2>&1
-    apt-get install -y --force-yes php5  > /dev/null 2>&1
+    apt-get install -y --force-yes php7  > /dev/null 2>&1
     apt-get install -y --force-yes unzip > /dev/null 2>&1
     apt-get install -y --force-yes python-software-properties > /dev/null 2>&1
     apt-get install -y --force-yes libpopt0 > /dev/null 2>&1
@@ -101,8 +100,8 @@ packages_install(){
     apt-get install -y --force-yes po-debconf > /dev/null 2>&1
     apt-get install -y --force-yes python > /dev/null 2>&1
     apt-get install -y --force-yes python-minimal > /dev/null 2>&1
-    apt-get install -y --force-yes python2.7 > /dev/null 2>&1
-    apt-get install -y --force-yes python2.7-minimal > /dev/null 2>&1
+    apt-get install -y --force-yes python3 > /dev/null 2>&1
+    apt-get install -y --force-yes python3-minimal > /dev/null 2>&1
     apt-get install -y --force-yes re2c > /dev/null 2>&1
     apt-get install -y --force-yes unixodbc > /dev/null 2>&1
     apt-get install -y --force-yes unixodbc-dev > /dev/null 2>&1
@@ -115,7 +114,7 @@ packages_install(){
     apt-get install -y --force-yes libjpeg8 > /dev/null 2>&1
     apt-get install -y --force-yes xtrans-dev > /dev/null 2>&1
     apt-get install -y --force-yes zlib1g-dev > /dev/null 2>&1
-    apt-get install -y --force-yes php5-fpm  > /dev/null 2>&1
+    apt-get install -y --force-yes php7-fpm  > /dev/null 2>&1
 }
 
 fos_install(){
