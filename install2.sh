@@ -212,8 +212,8 @@ sed -i 's/ttt/'$sqluname'/g' /home/fos-streaming/fos/www/config.php
 
 echo "FOS-Streaming se instaleaza. Asteptam..."
 
-fosstreamingexist
-distro
+
+
 packages_install
 fos_install
 database
